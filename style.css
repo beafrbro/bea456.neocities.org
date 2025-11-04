@@ -1,0 +1,12 @@
+body {
+    background-color: black;
+    color: #00FF00;
+    font-family: arial,  sans-serif;
+}
+a:link {
+   color: #00ff00;
+}
+
+a:visited {
+   color: #00ffff;
+}
