@@ -10,3 +10,19 @@ a:link {
 a:visited {
    color: #00ffff;
 }
+
+/*marquee css*/
+@keyframes marquee-slide {
+	0% {
+		transform: translatex(100%);
+	}
+	100% {
+		transform: translatex(-40ch); /*40ch is the approximate length of the text*/
+	}
+}
+
+.marquee {
+	--_scroll-speed: 12s;
+	animation: marquee-slide var(--_scroll-speed) linear infinite;
+}
+
