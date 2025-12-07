@@ -21,8 +21,9 @@ a:visited {
 	}
 }
 
-.marquee {
+.marquee-inner {
 	--_scroll-speed: 12s;
+	width: 40ch;
 	animation: marquee-slide var(--_scroll-speed) linear infinite;
 }
 
